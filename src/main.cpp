@@ -8,12 +8,12 @@
 #include "../h/mem_allocator.hpp"
 #include "../h/scheduler.hpp"
 
-extern void userMain();
+// extern void userMain();
 extern void memTest();
 
 void kmain(void*) {
   // Scheduler::show();
-  userMain();
+  // userMain();
   // memTest();
   // semaphoreTestCPP();
 
