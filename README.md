@@ -1,31 +1,5 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![project_license][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -51,20 +25,20 @@
     <li><a href="#usage">Usage</a></li>
     <li>
         <a href="#components">Components</a>
-        <li>
-            <a href="#memory-allocator">Memory Allocator</a>
-            <a href="#thread">Thread</a>
-            <a href="#scheduler">Scheduler</a>
-            <a href="#semaphore">Semaphore</a>
-            <a href="#console">Console</a>
-        </li>
+        <ul>
+            <li><a href="#memory-allocator">Memory Allocator</a></li>
+            <li><a href="#thread">Thread</a></li>
+            <li><a href="#scheduler">Scheduler</a></li>
+            <li><a href="#semaphore">Semaphore</a></li>
+            <li><a href="#console">Console</a></li>
+        </ul>
     </li>
     <li>
         <a href="#api">API</a>
-        <li>
-            <a href="#c-api">C API</a>
-            <a href="#cpp-api">C++ API</a>
-        </li>
+        <ul>
+            <li><a href="#c-api">C API</a></li>
+            <li><a href="#cpp-api">C++ API</a></li>
+        </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -87,20 +61,20 @@ For an explanation of the API which you can use to write code on top of the kern
 ## Getting Started
 
 1. Install prerequisites
-* bash
-    ```
+* shell
+    ```shell
     
     ```
 
 2. Clone the repo
-* bash
-    ```
+* shell
+    ```shell
     git clone https://github.com/dusanveljkovic/RISCV-Kernel 
     ```
 
 3. Build and run the kernel in qemu using `make`
-* bash
-    ```
+* shell
+    ```shell
     make qemu
     ```
 
@@ -144,32 +118,6 @@ special thread that is executed when the kernel starts.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Top contributors:
-
-<a href="https://github.com/github_username/repo_name/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=github_username/repo_name" alt="contrib.rocks image" />
-</a>
-
-
-
 <!-- LICENSE -->
 ## License
 
@@ -181,7 +129,7 @@ Distributed under the "AS-IS" lincese. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Dusan Veljkovic - dusanveljkovic@gmail.com
+Dusan Veljkovic - dusanveljkovickv@gmail.com
 
 Project Link: [https://github.com/dusanveljkovic/RISCV-Kernel](https://github.com/dusanveljkovic/RISCV-Kernel)
 
